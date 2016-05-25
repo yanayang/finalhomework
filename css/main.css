@@ -1,0 +1,169 @@
+@charset "utf-8" ;
+body
+{
+	font-family: 'Raleway', 'helvetica', sans-serif;
+	overflow-x: hidden;
+}
+
+
+@media only screen and (min-width: 512px)
+{
+	.bigvid{
+		width: 100% ;
+		height： auto ;
+	}
+} 
+
+.wrapper
+{
+	padding: 50px 0px 30px;
+}
+.section-title
+{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 300;
+	letter-spacing: 8px;
+	font-family: Roboto, 'helvetica', sans-serif;
+}
+.custom-white
+{
+	color: #fff;
+}
+
+a.logo
+{
+	font-size: 25px;
+	letter-spacing: 8px;
+	display: inline-block;
+	color: #fff;
+}
+a.logo:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-description
+{
+	background: url(../images/header_bg.jpg) no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: table;
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header-content
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.heading
+{
+	font-weight: bold;
+	padding: 15px 30px;
+	letter-spacing: 15px;
+	border: 2px solid #FFF;
+	display: inline-block;
+	font-size: 45px;
+}
+.heading-subtitle
+{
+	font-weight: 100;
+	letter-spacing: 12px;
+	font-size: 30px;
+}
+.button-down
+{
+	bottom: 11%;
+	position: absolute;
+	left: 48%;
+}
+
+.navigationbar
+{
+	font-weight: 400;
+	padding: 25px 0px;
+	background: #221e2d;
+	color: #ddd;
+	text-transform: uppercase;
+	min-height: 92px;
+}
+#iconhideshow
+{
+	font-size: 25px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+
+.modified
+{
+	padding: 10px 0px;
+	transition: .5s;
+	min-height: 62px;
+}
+
+.service
+{
+	background: url(../images/service_bg.jpg) no-repeat;
+	background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    /*height: 100vh;*/
+}
+.service .wrapper
+{
+	padding: 30px 0px 0px;
+}
+.service-content
+{
+	background: rgba(40, 36, 50, 0.9);
+}
+.empty
+{
+	height: 100px;
+}
+
+
+#about .container-fluid .about-table .about-table-cell
+{
+	display: table-cell;
+	padding: 0;
+	float: none;
+}
+
+
+.about-content {
+  
+  padding-left: 22%;
+  padding-right: 20px;
+}
+
+
+.works
+{
+	background: #221e2d;
+	
+}
+.img
+{
+	
+	margin:50 ;
+	padding:50px ;
+	border:5px ;
+} 
+	
+
+@media only screen and (max-width:650px) and (min-width: 481px){
+	img{
+		width: 50% ;
+	}
+}
+
